@@ -9,7 +9,7 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 371
+  - offset: 354
     length: 29
     placeholder_text: '...  # TODO добавить атрибуты'
     initial_state:
@@ -17,11 +17,11 @@ files:
       offset: 371
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       self.value = value
               self.next = next_
-  - offset: 506
+  - offset: 489
     length: 33
     placeholder_text: '...  # TODO вернуть значение узла'
     initial_state:
@@ -29,9 +29,9 @@ files:
       offset: 506
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: return self.value
-  - offset: 545
+  - offset: 528
     length: 30
     placeholder_text: '# TODO добавить метод get_next'
     initial_state:
@@ -39,12 +39,12 @@ files:
       offset: 545
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       def get_next(self) -> Optional["Node"]:
               """Метод, который возвращает значение атрибута next"""
               return self.next
-  - offset: 691
+  - offset: 674
     length: 57
     placeholder_text: '# TODO с помощью метода распечатать значение первого узла'
     initial_state:
@@ -52,9 +52,9 @@ files:
       offset: 691
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: print(first_node.get_value())
-  - offset: 753
+  - offset: 736
     length: 64
     placeholder_text: '# TODO  с помощью метода распечатать следующий узел второго
       узла'
@@ -63,7 +63,7 @@ files:
       offset: 753
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: print(second_node.get_next())
   text: |
     from typing import Any, Optional
@@ -97,5 +97,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sat, 25 Dec 2021 12:45:35 UTC
 record: -1
