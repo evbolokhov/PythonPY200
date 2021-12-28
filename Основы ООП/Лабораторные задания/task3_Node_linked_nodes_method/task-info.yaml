@@ -6,6 +6,9 @@ files:
     Node(1, Node(2, None))
     Node(2, None)
   learner_created: false
+- name: __init__.py
+  visible: false
+  learner_created: false
 - name: task.py
   visible: true
   placeholders:
@@ -78,9 +81,6 @@ files:
 
         print(first_node)
         print(second_node)
-  learner_created: false
-- name: __init__.py
-  visible: false
   learner_created: false
 status: Unchecked
 record: -1
