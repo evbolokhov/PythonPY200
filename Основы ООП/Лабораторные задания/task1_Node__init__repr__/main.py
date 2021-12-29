@@ -22,7 +22,7 @@ if __name__ == '__main__':
     first_node = Node(1)
 
     second_node = Node(2)
-    first_node.next = next_node
+    first_node.next_node = second_node
 
     print(first_node)
     print(second_node)
