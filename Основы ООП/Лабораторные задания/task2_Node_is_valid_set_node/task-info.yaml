@@ -21,11 +21,11 @@ files:
       offset: 399
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       self.next = None
               self.set_next(next_)
-  - offset: 688
+  - offset: 666
     length: 133
     placeholder_text: |-
       # TODO метод проверки корректности связываемого узла
@@ -35,12 +35,12 @@ files:
       offset: 602
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       if not isinstance(node, (type(None), Node)):
                   raise TypeError
-  - offset: 895
-    length: 98
+  - offset: 873
+    length: 146
     placeholder_text: |-
       # TODO метод должен проверять корректность узла и устанавливать значение атрибуту next
               ...
@@ -48,24 +48,24 @@ files:
       length: 98
       offset: 740
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       self.is_valid(next_)
               self.next = next_
-  - offset: 1027
+  - offset: 1053
     length: 50
     placeholder_text: '# TODO инициализируйте два узла с любыми значеними'
     initial_state:
       length: 50
       offset: 872
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       first_node = Node(1)
           second_node = Node(2)
-  - offset: 1083
+  - offset: 1159
     length: 36
     placeholder_text: '# TODO свяжите первый узел со вторым'
     initial_state:
@@ -73,7 +73,7 @@ files:
       offset: 928
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: first_node.set_next(second_node)
   text: |
     from typing import Any, Optional
@@ -112,5 +112,8 @@ files:
         print(first_node)
         print(second_node)
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 29 Dec 2021 14:13:20 UTC
 record: -1

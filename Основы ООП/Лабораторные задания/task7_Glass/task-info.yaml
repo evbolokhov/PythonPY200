@@ -15,7 +15,7 @@ files:
       length: 27
       offset: 27
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: |-
       class Glass:

@@ -19,7 +19,7 @@ files:
       offset: 371
     initialized_from_dependency: false
     selected: true
-    status: Failed
+    status: Solved
     encrypted_possible_answer: |-
       self.value = value
               self.next = next_
@@ -31,7 +31,7 @@ files:
       offset: 445
     initialized_from_dependency: false
     selected: true
-    status: Failed
+    status: Solved
     encrypted_possible_answer: |-
       def __repr__(self) -> str:
               return f"Node({self.value}, {self.next})"
@@ -43,7 +43,7 @@ files:
       offset: 552
     initialized_from_dependency: false
     selected: true
-    status: Failed
+    status: Solved
     encrypted_possible_answer: Node(1)
   - offset: 639
     length: 7
@@ -53,10 +53,10 @@ files:
       offset: 612
     initialized_from_dependency: false
     selected: true
-    status: Failed
+    status: Solved
     encrypted_possible_answer: Node(2)
-  - offset: 669
-    length: 9
+  - offset: 674
+    length: 11
     placeholder_text: '...  # TODO через атрибут экземпляра устанавливаем первому
       узлу следующий узел'
     initial_state:
@@ -64,7 +64,7 @@ files:
       offset: 675
     initialized_from_dependency: false
     selected: true
-    status: Failed
+    status: Solved
     encrypted_possible_answer: second_node
   text: |
     from typing import Any, Optional
@@ -97,12 +97,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Failed
+status: Solved
 feedback:
-  message: Incorrect
-  time: Sat, 25 Dec 2021 13:04:50 UTC
-  expected: |
-    Node(1, Node(2, None))
-    Node(2, None)
-  actual: <no output>
+  message: Congratulations!
+  time: Wed, 29 Dec 2021 13:40:00 UTC
 record: -1
