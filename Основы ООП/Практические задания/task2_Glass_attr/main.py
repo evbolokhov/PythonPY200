@@ -47,10 +47,13 @@ class Glass:
 if __name__ == "__main__":
     glass1 = Glass(200, 100)  # экземпляр класса
     print(glass1.get_capacity_volume(), glass1.get_occupied_volume())
+
     glass1.add_water(50)
     print(glass1.get_capacity_volume(), glass1.get_occupied_volume())
     glass2 = Glass(500, 200)
-    print(glass2)
+    print(glass2.get_capacity_volume(), glass2.get_occupied_volume())
+    print(glass1 is glass2)
+
     #
     # print("Доливаем воды в первый стакан...")
     # #  TODO доливаем воды в первый стакан

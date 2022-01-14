@@ -16,7 +16,7 @@ files:
       length: 43
       offset: 246
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: |-
       if data is not None:

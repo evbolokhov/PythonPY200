@@ -16,7 +16,7 @@ files:
       length: 58
       offset: 628
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: return str(self.value)
   - offset: 1325

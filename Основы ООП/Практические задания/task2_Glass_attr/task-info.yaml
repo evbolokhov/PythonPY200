@@ -3,7 +3,7 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 1889
+  - offset: 1890
     length: 44
     placeholder_text: '...  # TODO инициализировать ещё один стакан'
     initial_state:
@@ -13,17 +13,17 @@ files:
     selected: false
     status: Solved
     encrypted_possible_answer: 'Glass(500, 50)  # экземпляр класса'
-  - offset: 1944
-    length: 49
+  - offset: 1945
+    length: 130
     placeholder_text: '...)  # TODO распечатать атрибуты экземпляра glass2'
     initial_state:
       length: 51
       offset: 779
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Solved
     encrypted_possible_answer: glass2.capacity_volume, glass2.occupied_volume)
-  - offset: 2045
+  - offset: 2127
     length: 37
     placeholder_text: '#  TODO доливаем воды в первый стакан'
     initial_state:
@@ -33,7 +33,7 @@ files:
     selected: false
     status: Solved
     encrypted_possible_answer: glass1.occupied_volume += 100
-  - offset: 2204
+  - offset: 2286
     length: 28
     placeholder_text: '#  TODO сравнить id объектов'
     initial_state:
@@ -81,6 +81,6 @@ files:
   learner_created: false
 status: Solved
 feedback:
-  time: Wed, 29 Dec 2021 11:40:37 UTC
+  time: Wed, 29 Dec 2021 16:44:03 UTC
 record: -1
 post_submission_on_open: true

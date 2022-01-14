@@ -35,3 +35,7 @@ class Glass:
     def __check_overflow(self):
         if self.capacity_volume < self.occupied_volume:
             raise OverflowError('Стакан не резиновый')
+
+if __name__ == "__main__":
+    glass1 = Glass(200, 100)  # экземпляр класса
+    glass2 = Glass(500, 100)  # экземпляр класса
