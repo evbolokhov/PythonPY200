@@ -21,8 +21,8 @@ files:
       length: 38
       offset: 2357
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Failed
     encrypted_possible_answer: |-
       self.head = None
               self.tail = None
@@ -130,8 +130,8 @@ files:
       length: 34
       offset: 952
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Failed
     encrypted_possible_answer: |-
       def __del__(self):
               print("Вызван метод \"__del__\"")
@@ -172,5 +172,19 @@ files:
 
         # TODO переоределить метод __del__
   learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Incorrect
+  time: Fri, 04 Feb 2022 17:55:34 UTC
+  expected: |
+    [1, 2, 3, 4, 5]
+    Вызван метод "__del__"
+    Вызван метод "__del__"
+    Вызван метод "__del__"
+    Вызван метод "__del__"
+    Вызван метод "__del__"
+    []
+  actual: |
+    [1, 2, 3, 4, 5]
+    [1, 2, 3, 4, 5]
 record: -1

@@ -18,7 +18,7 @@ files:
       length: 130
       offset: 144
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: |-
       print(self.__dict__)
