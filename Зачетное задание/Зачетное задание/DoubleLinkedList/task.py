@@ -72,6 +72,31 @@ class LinkedList:
     def __str__(self) -> str:
         return f"{self.to_list()}"
 
+    def __delitem__(self, index: int):
+
+        if index == 0:
+            self.head = self.head.next
+        elif index == self.len - 1:
+            tail = self.step_by_step_on_nodes(index - 1)
+            tail.next = None
+        else:
+            prev_node = self.step_by_step_on_nodes(index - 1)
+            del_node = prev_node.next
+            next_node = del_node.next
+
+            self.linked_nodes(prev_node, next_node)
+
+        self.len -= 1
+
+    def __len__(self):
+        print("Вызван метод \"__len__\"")
+        return self.len
+
+
+
+
+
+
     def nodes_iterator(self) -> Iterator[Node]:
         current_node = self.head
         for _ in range(self.len):
