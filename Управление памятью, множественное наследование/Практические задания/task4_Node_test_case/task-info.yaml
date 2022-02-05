@@ -107,7 +107,7 @@ files:
       offset: 56
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: 'unittest.TestCase):'
   - offset: 247
     length: 66
@@ -118,7 +118,7 @@ files:
       offset: 247
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       node = Node("node_without_next")
 
@@ -132,7 +132,7 @@ files:
       offset: 452
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       right_node = Node("right")
               left_node = Node("left", right_node)
@@ -147,7 +147,7 @@ files:
       offset: 623
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       node = Node("node_without_next")
 
@@ -161,7 +161,7 @@ files:
       offset: 685
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: '@unittest.skip("Тест пропущен по причине ...")'
   - offset: 973
     length: 40
@@ -171,7 +171,7 @@ files:
       offset: 973
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: self.assertEqual(str(node), str(some_value))
   - offset: 1052
     length: 57
@@ -181,7 +181,7 @@ files:
       offset: 1052
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       Node.is_valid(None)
               Node.is_valid(Node("correct_node"))
@@ -194,7 +194,7 @@ files:
       offset: 1119
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       with self.assertRaises(TypeError):
                   Node.is_valid("incorrect_type")
@@ -233,5 +233,8 @@ files:
 
             # TODO с помощью менеджера контакста и метода assertRaises проверить корректность вызываемой ошибки
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Fri, 04 Feb 2022 18:32:22 UTC
 record: -1
