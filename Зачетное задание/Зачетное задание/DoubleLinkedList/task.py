@@ -160,8 +160,15 @@ class DoubleLinkedList(LinkedList):
 def test_append_double_linked_nodes():
     dll = DoubleLinkedList([1, 2, 3])
     print(type(dll.head))
+    print(len(dll))
+    print(str(dll))
+    print(repr(dll))
+    dll.append(5)
+    dll.insert(2, 6)
+    print(dll)
 
 
 if __name__ == "__main__":
     test_append_double_linked_nodes()
+
 
